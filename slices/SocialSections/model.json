@@ -1,0 +1,34 @@
+{
+  "id": "social_sections",
+  "type": "SharedSlice",
+  "name": "SocialSections",
+  "description": "SocialSections",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SocialSections",
+      "primary": {},
+      "items": {
+        "selectSocialsAcrossWebsite": {
+          "config": {
+            "label": "SelectSocialsAcrossWebsite",
+            "placeholder": "",
+            "options": [
+              "Facebook",
+              "Instagram",
+              "Linkendin",
+              "Twitter",
+              "Behance",
+              "Dribble"
+            ],
+            "default_value": "Facebook"
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

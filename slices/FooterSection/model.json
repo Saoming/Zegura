@@ -1,0 +1,100 @@
+{
+  "id": "footer_section",
+  "type": "SharedSlice",
+  "name": "FooterSection",
+  "description": "FooterSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FooterSection",
+      "primary": {
+        "emailCTA": {
+          "config": {
+            "label": "EmailCta",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "emailLink": {
+          "config": {
+            "label": "EmailLink",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "address": {
+          "config": {
+            "label": "Address",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "phoneNumber": {
+          "config": {
+            "label": "PhoneNumber",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "phoneLink": {
+          "config": {
+            "label": "PhoneLink",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "privacyText": {
+          "config": {
+            "label": "PrivacyText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "privacyLink": {
+          "config": {
+            "label": "PrivacyLink",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "pattern": {
+          "config": {
+            "label": "Pattern",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {
+        "socialMediaSelect": {
+          "config": {
+            "label": "Social Media Selector",
+            "placeholder": "",
+            "options": [
+              "Facebook",
+              "Instagram",
+              "Youtube",
+              "Linkendin",
+              "Twitter"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "home_hero_section",
+  "type": "SharedSlice",
+  "name": "HomeHeroSection",
+  "description": "HomeHeroSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HomeHeroSection",
+      "primary": {
+        "subHeading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "SubHeading",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,hyperlink"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

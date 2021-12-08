@@ -1,0 +1,28 @@
+{
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation_section": {
+              "type": "SharedSlice"
+            },
+            "footer_section": {
+              "type": "SharedSlice"
+            },
+            "social_sections": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO MetaData": {}
+  }
+}

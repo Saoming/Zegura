@@ -1,0 +1,27 @@
+{
+  "id": "menu",
+  "label": "Menu",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation_section": {
+              "type": "SharedSlice"
+            },
+            "footer_section": {
+              "type": "SharedSlice"
+            },
+            "social_sections": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

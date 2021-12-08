@@ -1,0 +1,22 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "social_sections",
+    "items": [
+      {
+        "selectSocialsAcrossWebsite": "Facebook"
+      },
+      {
+        "selectSocialsAcrossWebsite": "Facebook"
+      },
+      {
+        "selectSocialsAcrossWebsite": "Behance"
+      },
+      {
+        "selectSocialsAcrossWebsite": "Facebook"
+      }
+    ],
+    "primary": {}
+  }
+]

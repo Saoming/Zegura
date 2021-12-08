@@ -1,15 +1,37 @@
 {
-  "name": "zegura",
+  "name": "zegura-marketing-agency-next-prismic",
+  "description": "Website made with Prismic Slice Machine, Storybook, NextJS & Tailwind",
+  "author": "zegura",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@prismicio/client": "^5.1.0",
     "next": "12.0.4",
+    "next-slicezone": "^0.1.2",
+    "prismic-reactjs": "^1.3.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.3.12",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.3.11",
+    "slice-machine-ui": "^0.1.1",
+    "tailwindcss": "^2.2.19"
   }
 }
